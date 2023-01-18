@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Capital Wave",
+    "slug": "CapitalWave",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/whitewave.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/whitewave.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001F2D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/whitewave.png",
+        "backgroundColor": "#001F2D"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
